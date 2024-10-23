@@ -2,18 +2,14 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "RoyaleWiki",
-  description: "Dickпедия сервера RoyaleRP",
+  title: "My Awesome Project",
+  description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
-
-    outline: {
-      label: "На этой странице",
-    },
 
     sidebar: [
       {
