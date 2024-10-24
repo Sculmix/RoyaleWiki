@@ -20,10 +20,7 @@ export default defineConfig({
           { text: 'Моды', link: '/podpunkt2' },
           { text: '💳Понятия', link: '/pravila' },
           { text: '📄Пользовательское соглашение', link: '/polz' },
-        text: 'КОМАНДА ROYALERP',
-        items: [
-          { text: '👋Наша команда', link: '/nash' }
-    ],
+          { text: '👋Наша команда', link: '/nash' },
           { text: '🎟️Подписки', link: '/podpiski' },
           { text: '⭐Чат', link: '/chat' },
           { text: '🪽Элитры', link: '/elitr' },
