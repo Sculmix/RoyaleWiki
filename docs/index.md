@@ -3,23 +3,25 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "RoyaleRP"
+  text: "База знаний майнкрафт сервера"
+  tagline: Википедия содержащая в себе всё что нужно для приятной игры на RoyaleRP
+  image:
+    src: /512.webp
+    alt: RoyaleRP
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Начать
+      link: /start
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Для продвинутых
+      link: /server-properties
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Понятность
+    details: Наша википедия написана максимально понятно, чтобы вы могли тратить меньше времени на изучение материала и больше на разработку сервера
+  - title: Актуальность
+    details: Только актуальная информация для самых последних версий майнкрафта
+  - title: Объёмность
+    details: Здесь собрана вся нужная информация которая может вам понадобиться при использовании нашего хостинга
 ---
-
