@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   cleanUrls: true,
-  title: "Bisquit Wiki",
-  description: "База знаний лучшего хостинга Bisquit.Host",
+  title: "Royale Wiki",
+  description: "База знаний майнкрафт сервера RoyaleRP",
   themeConfig: {
     outline: {
       label: "На этой странице",
@@ -40,7 +40,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Bisquit-Host' }
+      { icon: 'github', link: 'https://github.com/RoyaleRP' }
     ]
   }
 })
