@@ -1,5 +1,5 @@
-import { defineConfig } from 'vitepress'
-import lightbox from "vitepress-plugin-lightbox"
+import { defineConfig } from 'vitepress';
+import lightbox from "vitepress-plugin-lightbox";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -12,7 +12,7 @@ export default defineConfig({
       provider: 'local',
       options: {
         locales: {
-          root: { // используйте ключ `root`, если хотите перевести локаль по умолчанию
+          root: {
             translations: {
               button: {
                 buttonText: 'Поиск',
@@ -42,14 +42,11 @@ export default defineConfig({
       label: "На этой странице",
     },
     logo: '/512.webp',
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
-      // { text: 'Home', link: '/' },
       {
         text: 'RoyaleRP',
         items: [
           {
-            // You may also omit the title.
             items: [
               { text: 'Основной сайт', link: 'https://royalerp.ru' },
               { text: 'Discord', link: 'https://discord.gg/ymYpxTr436' },
@@ -60,19 +57,10 @@ export default defineConfig({
         ]
       }
     ],
-
-    darkModeSwitchLabel: 'Оформление',
-    lightModeSwitchTitle: 'Переключить на светлую тему',
-    darkModeSwitchTitle: 'Переключить на тёмную тему',
-    sidebarMenuLabel: 'Меню',
-    returnToTopLabel: 'Вернуться к началу',
-  },
-
     docFooter: {
       prev: 'Предыдущая страница',
       next: 'Следующая страница'
     },
-
     sidebar: [
       {
         text: 'Начало',
@@ -100,7 +88,6 @@ export default defineConfig({
           { text: 'Поводки', link: '/leash' },
           { text: 'Крафты', link: '/crafts' },
           { text: 'Рисование', link: '/artmap' },
-          { text: 'Поводки', link: '/leash' },
           { text: 'Медный голем', link: '/coppergolem' },
           { text: 'Напитки', link: '/brewery' },
           { text: 'Арморстенды', link: '/armor' },
@@ -125,14 +112,18 @@ export default defineConfig({
         ]
       },
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/RoyaleRP' }
-    ]
+    ],
+    darkModeSwitchLabel: 'Оформление',
+    lightModeSwitchTitle: 'Переключить на светлую тему',
+    darkModeSwitchTitle: 'Переключить на тёмную тему',
+    sidebarMenuLabel: 'Меню',
+    returnToTopLabel: 'Вернуться к началу',
+    langMenuLabel: 'Изменить язык',
   },
   markdown: {
     config: (md) => {
-      // Use lightbox plugin
       md.use(lightbox, {});
     },
   },
