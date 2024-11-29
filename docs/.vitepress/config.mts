@@ -61,6 +61,13 @@ export default defineConfig({
       }
     ],
 
+    darkModeSwitchLabel: 'Оформление',
+    lightModeSwitchTitle: 'Переключить на светлую тему',
+    darkModeSwitchTitle: 'Переключить на тёмную тему',
+    sidebarMenuLabel: 'Меню',
+    returnToTopLabel: 'Вернуться к началу',
+  },
+
     docFooter: {
       prev: 'Предыдущая страница',
       next: 'Следующая страница'
