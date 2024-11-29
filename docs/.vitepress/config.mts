@@ -61,6 +61,11 @@ export default defineConfig({
       }
     ],
 
+    docFooter: {
+      prev: 'Предыдущая страница',
+      next: 'Следующая страница'
+    },
+
     sidebar: [
       {
         text: 'Начало',
