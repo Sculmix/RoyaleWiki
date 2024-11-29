@@ -12,7 +12,7 @@ export default defineConfig({
       provider: 'local',
       options: {
         locales: {
-          ru: { // используйте ключ `root`, если хотите перевести локаль по умолчанию
+          root: { // используйте ключ `root`, если хотите перевести локаль по умолчанию
             translations: {
               button: {
                 buttonText: 'Поиск',
@@ -36,7 +36,7 @@ export default defineConfig({
             }
           }
         }
-    },
+      },
     },
     outline: {
       label: "На этой странице",
