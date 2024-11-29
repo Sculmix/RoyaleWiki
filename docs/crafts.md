@@ -1,11 +1,11 @@
 # Крафты
 
-![Light](./lightrecipe.webp)
+![Light](./public/lightrecipe.webp)
 
-![Recipe](./bundlerecipe.webp)
+![Recipe](./public/bundlerecipe.webp)
 
-![Zalupa](./zaluparecipe.webp)
+![Zalupa](./public/zaluparecipe.webp)
 
-![Vape](./vape1.webp)
+![Vape](./public/vape1.webp)
 
-![Vape](./vape2.webp)
+![Vape](./public/vape2.webp)
