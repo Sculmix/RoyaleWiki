@@ -92,6 +92,8 @@ export default defineConfig({
           { text: 'Напитки', link: '/brewery' },
           { text: 'Арморстенды', link: '/armor' },
           { text: 'Банк', link: '/bank' },
+          { text: 'Города', link: '/towns' },
+          { text: 'Организации', link: '/org' },
           { text: 'Своя музыка', link: '/music' },
         ]
       },
