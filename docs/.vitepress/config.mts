@@ -85,6 +85,7 @@ export default defineConfig({
           { text: 'Элитры', link: '/elytra' },
           { text: 'Быстрый бетон', link: '/conc' },
           { text: 'Рисование', link: '/artmap' },
+          { text: 'Своя метка на карте', link: '/banners' },
           { text: 'Защита артов', link: '/artlock' },
           { text: 'Арморстенды', link: '/armor' },
           { text: 'Медный голем', link: '/coppergolem' },
