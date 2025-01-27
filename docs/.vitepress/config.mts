@@ -69,6 +69,7 @@ export default defineConfig({
           { text: 'Как зайти на сервер', link: '/start' },
           { text: 'Моды', link: '/mods' },
           { text: 'Правила', link: '/rules' },
+          { text: 'РП правила', link: '/rprules' },
           { text: 'Термины', link: '/termins' },
           { text: 'Пользовательское соглашение', link: '/userdoc' },
         ]
