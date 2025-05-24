@@ -89,7 +89,6 @@ export default defineConfig({
           { text: 'Своя метка на карте', link: '/banners' },
           { text: 'Защита артов', link: '/artlock' },
           { text: 'Арморстенды', link: '/armor' },
-          { text: 'Медный голем', link: '/coppergolem' },
           { text: 'Поводки', link: '/leash' },
           { text: 'Своя музыка', link: '/music' },
           { text: 'Напитки', link: '/brewery' },
