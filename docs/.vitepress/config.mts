@@ -88,6 +88,7 @@ export default defineConfig({
           { text: 'Рисование', link: '/artmap' },
           { text: 'Своя метка на карте', link: '/banners' },
           { text: 'Защита артов', link: '/artlock' },
+		  { text: 'Защитная станция', link: '/protectionstation' },
           { text: 'Арморстенды', link: '/armor' },
           { text: 'Поводки', link: '/leash' },
           { text: 'Своя музыка', link: '/music' },
