@@ -81,6 +81,7 @@ export default defineConfig({
           { text: 'Города', link: '/towns' },
           { text: 'Организации', link: '/org' },
           { text: 'Банк', link: '/bank' },
+          { text: 'Медицина', link: '/medicine' },
           { text: 'Чат', link: '/chat' },
           { text: 'Крафты', link: '/crafts' },
           { text: 'Элитры', link: '/elytra' },
