@@ -11,3 +11,5 @@
 ![Vape](./public/vape1.webp)
 
 ![Vape](./public/vape2.webp)
+
+![СтраниПарашок](./public/poroshok.webp)
