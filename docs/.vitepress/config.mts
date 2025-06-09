@@ -83,6 +83,7 @@ export default defineConfig({
           { text: 'Банк', link: '/bank' },
           { text: 'Медицина', link: '/medicine' },
 		  { text: 'Головы', link: '/headsystem' },
+          { text: 'Религии', link: '/religions' },
           { text: 'Чат', link: '/chat' },
           { text: 'Защитная станция', link: '/protectionstation' },
           { text: 'Защита артов', link: '/artlock' },
